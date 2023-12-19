@@ -1,10 +1,7 @@
 /* Глобальные элементы / Начало */
 
 .page {
-  /* background-attachment: fixed;
-  background-image: var(--bg-img, url("../images/cover-image.png"));
-  background-position: center;
-  background-size: cover; */
+  background-attachment: fixed;
   background-color: var(--bg-color, #000028);
   color: var(--text-color, #f1b2ce);
   font-family: var(--main-font, "IBM Plex mono", monospace);
