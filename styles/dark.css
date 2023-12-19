@@ -1,48 +1,46 @@
-
 :root.theme-dark {
-  --accent-color: var(--text-color-purple, #FF0070);
-  --accent-text-color: var(--text-color-purple, #FF0070);
-  --accent-bg-color: var(--text-color-purple, #FF0070);
+  --accent-color: var(--text-color-purple, #ff0070);
+  --accent-text-color: var(--text-color-purple, #ff0070);
+  --accent-bg-color: var(--text-color-purple, #ff0070);
   --bg-color: var(--bg-color-black, #000028);
   --bg-img: url(/images/cover-image-dark.png);
-  --bg-text-color: var(--bg-color-purple, #FF0070);
+  --bg-text-color: var(--bg-color-purple, #ff0070);
   --highlight-text-color: var(--text-color-black, #000028);
-  --hover-color: var(--hover-color-dark, #FF007040);
-  --text-color: var(--text-color-pink, #F1B2CE);
-  --title-footer-color: var(--text-color-violet, #DB00FF);
-  
+  --hover-color: var(--hover-color-dark, #ff007040);
+  --text-color: var(--text-color-pink, #f1b2ce);
+  --title-footer-color: var(--text-color-violet, #db00ff);
+
   --header-rec-visibility: visible;
 }
 
-
 .page.theme_dark {
-  --accent-color: var(--text-color-purple, #FF0070);
-  --accent-text-color: var(--text-color-purple, #FF0070);
-  --accent-bg-color: var(--text-color-purple, #FF0070);
+  --accent-color: var(--text-color-purple, #ff0070);
+  --accent-text-color: var(--text-color-purple, #ff0070);
+  --accent-bg-color: var(--text-color-purple, #ff0070);
   --bg-color: var(--bg-color-black, #000028);
   --bg-img: url(/images/cover-image-dark.png);
-  --bg-text-color: var(--bg-color-purple, #FF0070);
+  --bg-text-color: var(--bg-color-purple, #ff0070);
   --highlight-text-color: var(--text-color-black, #000028);
-  --hover-color: var(--hover-color-dark, #FF007040);
-  --text-color: var(--text-color-pink, #F1B2CE);
-  --title-footer-color: var(--text-color-violet, #DB00FF);
-  
+  --hover-color: var(--hover-color-dark, #ff007040);
+  --text-color: var(--text-color-pink, #f1b2ce);
+  --title-footer-color: var(--text-color-violet, #db00ff);
+
   --header-rec-visibility: visible;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-  --accent-color: var(--text-color-purple, #FF0070);
-  --accent-text-color: var(--text-color-purple, #FF0070);
-  --accent-bg-color: var(--text-color-purple, #FF0070);
-  --bg-color: var(--bg-color-black, #000028);
-  --bg-img: url(/images/cover-image-dark.png);
-  --bg-text-color: var(--bg-color-purple, #FF0070);
-  --highlight-text-color: var(--text-color-black, #000028);
-  --hover-color: var(--hover-color-dark, #FF007040);
-  --text-color: var(--text-color-pink, #F1B2CE);
-  --title-footer-color: var(--text-color-violet, #DB00FF);
-  
-  --header-rec-visibility: visible;
+    --accent-color: var(--text-color-purple, #ff0070);
+    --accent-text-color: var(--text-color-purple, #ff0070);
+    --accent-bg-color: var(--text-color-purple, #ff0070);
+    --bg-color: var(--bg-color-black, #000028);
+    --bg-img: url(/images/cover-image-dark.png);
+    --bg-text-color: var(--bg-color-purple, #ff0070);
+    --highlight-text-color: var(--text-color-black, #000028);
+    --hover-color: var(--hover-color-dark, #ff007040);
+    --text-color: var(--text-color-pink, #f1b2ce);
+    --title-footer-color: var(--text-color-violet, #db00ff);
+
+    --header-rec-visibility: visible;
   }
 }

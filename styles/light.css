@@ -1,4 +1,3 @@
-
 :root.theme-light {
   --accent-color: var(--text-color-gray, #353430);
   --accent-text-color: var(--text-color-gray, #353430);
@@ -7,10 +6,10 @@
   --bg-img: url(/images/cover-image-light.png);
   --bg-text-color: var(--bg-color-pink, #ff8dcb);
   --highlight-text-color: var(--text-color-gray, #353430);
-  --hover-color: var(--hover-color-light, #32312D66);
+  --hover-color: var(--hover-color-light, #32312d66);
   --text-color: var(--text-color-gray, #353430);
   --title-footer-color: var(--title-color-pink, #ffc2e6);
-  
+
   --header-rec-visibility: hidden;
 }
 
@@ -22,26 +21,26 @@
   --bg-img: url(/images/cover-image-light.png);
   --bg-text-color: var(--bg-color-pink, #ff8dcb);
   --highlight-text-color: var(--text-color-gray, #353430);
-  --hover-color: var(--hover-color-light, #32312D66);
+  --hover-color: var(--hover-color-light, #32312d66);
   --text-color: var(--text-color-gray, #353430);
   --title-footer-color: var(--title-color-pink, #ffc2e6);
-  
-  --header-rec-visibility: hidden; 
+
+  --header-rec-visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
-:root {
-  --accent-color: var(--text-color-gray, #353430);
-  --accent-text-color: var(--text-color-gray, #353430);
-  --accent-bg-color: var(--bg-color-pink, #ff8dcb);
-  --bg-color: var(--bg-color-pink1, #fff1f7);
-  --bg-img: url(/images/cover-image-light.png);
-  --bg-text-color: var(--bg-color-pink, #ff8dcb);
-  --highlight-text-color: var(--text-color-gray, #353430);
-  --hover-color: var(--hover-color-light, #32312D66);
-  --text-color: var(--text-color-gray, #353430);
-  --title-footer-color: var(--title-color-pink, #ffc2e6);
-  
-  --header-rec-visibility: hidden;
+  :root {
+    --accent-color: var(--text-color-gray, #353430);
+    --accent-text-color: var(--text-color-gray, #353430);
+    --accent-bg-color: var(--bg-color-pink, #ff8dcb);
+    --bg-color: var(--bg-color-pink1, #fff1f7);
+    --bg-img: url(/images/cover-image-light.png);
+    --bg-text-color: var(--bg-color-pink, #ff8dcb);
+    --highlight-text-color: var(--text-color-gray, #353430);
+    --hover-color: var(--hover-color-light, #32312d66);
+    --text-color: var(--text-color-gray, #353430);
+    --title-footer-color: var(--title-color-pink, #ffc2e6);
+
+    --header-rec-visibility: hidden;
   }
 }
