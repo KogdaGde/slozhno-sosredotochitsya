@@ -2,6 +2,9 @@
 
 .page {
   background-attachment: fixed;
+  background-image: var(--bg-img, url("../images/cover-image.png"));
+  background-position: center;
+  background-size: cover;
   background-color: var(--bg-color, #000028);
   color: var(--text-color, #f1b2ce);
   font-family: var(--main-font, "IBM Plex mono", monospace);
@@ -14,7 +17,7 @@
   display: grid;
   /* Расширение от 10px до 20px */
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  min-block-size: 50vh;
+  min-block-size: 100vh;
 }
 
 .decorated-zone {
@@ -54,13 +57,13 @@
   align-items: start;
 }
 
-.bg-img {
+/* .bg-img {
   background-attachment: fixed;
   background-image: var(--bg-img, url("../images/cover-image.png"));
   background-position: center;
   background-size: cover;
   z-index: 2;
-}
+} */
 
 .header__rec {
   position: absolute;
@@ -110,6 +113,7 @@
   font-family: inherit;
   color: var(--accent-text-color, #ff0070);
   font-weight: inherit;
+  cursor: pointer ;
 }
 
 .header__theme-menu-button:hover {
@@ -151,7 +155,7 @@
 
 .main {
   display: grid;
-  padding: 40px 10px;
+  padding: 40px 10px 0;
 }
 
 .title {
@@ -166,6 +170,12 @@
   background: var(--accent-bg-color, #ff0070);
 }
 
+.title-redecor {
+  font-weight: 400;
+  font-size: inherit;
+  line-height: inherit;
+}
+
 .section {
   display: grid;
   gap: 20px;
@@ -173,6 +183,8 @@
 }
 
 .section-gallery {
+  display: grid;
+  padding-bottom: 40px;
   gap: 10px;
 }
 
@@ -213,7 +225,7 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid;
 }
 
 .link:focus {
@@ -298,14 +310,14 @@
 
   .main {
     gap: 80px;
-    padding: 60px 20px;
+    padding: 60px 20px 20px;
   }
 }
 
 @media (width >= 1024px) {
   
   .cover {
-    min-block-size: vh;
+    min-block-size: 100vh;
   }
   
   .header__title {
