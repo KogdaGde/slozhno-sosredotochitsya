@@ -37,16 +37,20 @@
   border-inline-end: 1px solid var(--accent-color, #ff0070);
   border-block-start: 1px solid var(--accent-color, #ff0070);
   /* Расширение от 10px до 20px */
-  inset-inline-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  /* inset-inline-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  inset-block-start: clamp(10px, 0.0286rem + 2.5445vw, 20px); */
+  inset-inline-end: 10px;
+  inset-block-start: 10px;
 }
 
 .decorated-zone::after {
   border-inline-start: 1px solid var(--accent-color, #ff0070);
   border-block-end: 1px solid var(--accent-color, #ff0070);
   /* Расширение от 10px до 20px */
-  inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  /* inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px); */
+  inset-inline-start: 10px;
+  inset-block-end: 10px;
 }
 
 /* Глобальные элементы / Конец */
@@ -105,7 +109,7 @@
   font-family: inherit;
   color: var(--accent-text-color, #ff0070);
   font-weight: inherit;
-  cursor: pointer ;
+  cursor: pointer;
 }
 
 .header__theme-menu-button:hover {
@@ -240,10 +244,17 @@
 
 @media (width >= 768px) {
   
-  .cover {
-    min-block-size: 100vh;
+
+  .decorated-zone::before {
+    inset-inline-end: 20px;
+    inset-block-start: 20px;
   }
   
+  .decorated-zone::after {
+    inset-inline-start: 20px;
+    inset-block-end: 20px;
+  }
+
   .header__rec {
     inset-inline-end: 28px;
     inset-block-start: 20px;
@@ -308,10 +319,7 @@
 
 @media (width >= 1024px) {
   
-  .cover {
-    min-block-size: 100vh;
-  }
-  
+
   .header__title {
     text-shadow: 4px 4px 0 var(--accent-bg-color, #ff0070);
   }
